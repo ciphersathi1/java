@@ -1,0 +1,23 @@
+package test;
+
+ class POLY {
+  int add(int a,int b) {
+	int c=a+b;
+	System.out.println(+c); 
+	return c;
+ }
+ } 
+ class add1 extends POLY
+ {
+	 double add(double a,double b) {
+		 double c=a+b;
+		 System.out.println(+c);
+		 return c;
+	 }	 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	add1 c=new add1();
+     add(100,200);
+	}
+
+ }
