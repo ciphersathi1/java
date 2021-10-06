@@ -1,0 +1,22 @@
+
+public class func {
+	//with arg without return type
+	static void add(double d,double e) //declaration
+	{
+		double c;    
+		c=d+e;
+		System.out.println(c);
+	}
+	//with arg with return
+	static int sub(int a,int b) {
+		int c=a-b;
+		return c;	
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		add(10.5,20.5);              //call
+		int d=sub(10,20);
+		
+		
+	}
+}

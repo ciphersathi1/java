@@ -1,0 +1,17 @@
+
+public class func {
+
+	static void add(int a,int b) //declaration
+	{
+		int c;         
+		c=a+b;
+		System.out.println(c);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		add(10,20);    //call
+		add(1567,2597);
+		add(532144,598745);
+	}
+
+}
