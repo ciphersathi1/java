@@ -1,6 +1,5 @@
 
 public class func {
-	
 	//with arg without return type
 	static void add(double d,double e) //declaration
 	{

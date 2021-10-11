@@ -1,0 +1,38 @@
+class arith{
+	static void add(double d,double e) //declaration
+	{
+		double c;    
+		c=d+e;
+		System.out.println("Addition is :"+c);
+	}
+	//with arg with return
+	static int sub(int a,int b) {
+		int c=a-b;
+		return c;	
+	}
+	//without arg with return
+	static int mul() {
+		int a,b,c;
+		a=5;
+		b=5;
+		c=a*b;
+		return c;
+	}
+	
+	//without arg without return
+	static void div() {
+		int a,b,c;
+		a=5;
+		b=5;
+		c=a/b;
+		System.out.println("Division is :"+c);
+	}
+}
+public class oops {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		arith a=new arith();
+		a.div();
+	}
+
+}

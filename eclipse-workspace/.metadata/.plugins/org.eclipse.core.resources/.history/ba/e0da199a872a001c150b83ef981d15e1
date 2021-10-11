@@ -1,0 +1,16 @@
+class demo{
+	void print() {
+		System.out.println("Welcome to my class");
+	}
+	void show() {
+		System.out.println("bye");
+	}
+}
+public class oops {
+	public static void main(String[] args) {
+		demo  d=new demo();
+		demo  f=new demo();
+		d.print();
+		f.show();
+	}
+}
