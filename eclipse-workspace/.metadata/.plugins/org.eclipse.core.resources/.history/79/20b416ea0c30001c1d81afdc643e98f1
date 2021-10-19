@@ -1,0 +1,26 @@
+class aska{
+	/*private void ad() {
+		int a,b,c;
+		a=10;
+		b=20;
+		c=a+b;
+		System.out.println(c);
+	}*/
+	public void add() {
+		int a,b,c;
+		a=10;
+		b=20;
+		c=a+b;
+		System.out.println(c);
+	}
+}
+public class abst {
+	
+	public static void main(String[] args) {
+		aska a=new aska();
+		a.add();
+		//a.ad();
+		
+	}
+
+}

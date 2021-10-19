@@ -1,0 +1,12 @@
+
+public class str {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="sathish";
+		String a=new String("gtec");
+		System.out.println(a.length());
+		//System.out.println(s);
+	}
+
+}

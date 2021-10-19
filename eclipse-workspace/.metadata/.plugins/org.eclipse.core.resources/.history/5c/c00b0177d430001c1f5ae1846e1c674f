@@ -1,0 +1,12 @@
+
+public class str {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Hi helol";
+		String a=new String("Hello");
+		System.out.println(a.concat(s));
+		//System.out.println(s);
+	}
+
+}

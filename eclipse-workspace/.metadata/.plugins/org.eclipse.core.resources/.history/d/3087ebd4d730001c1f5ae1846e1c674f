@@ -1,0 +1,18 @@
+
+public class str {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a,b,c;
+		a=10;
+		b=0;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		if (b==0) {
+			throw new except("Cxant divide");
+		}
+		else{
+			System.out.println(a/b);	
+		}
+	}
+}

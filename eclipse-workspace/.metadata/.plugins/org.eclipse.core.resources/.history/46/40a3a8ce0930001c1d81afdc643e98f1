@@ -1,0 +1,30 @@
+class ask{
+	void add() {
+		int a,b,c;
+		a=10;
+		b=20;
+		c=a+b;
+		System.out.println(c);		
+	}
+}
+class ask2 extends ask{
+		void add() {
+			int a,b,c;
+			a=10;
+			b=20;
+			c=a+b;
+			System.out.println(c);		
+		}	
+	
+	
+}
+
+public class ast {
+
+	public static void main(String[] args) {
+		ask2 a=new ask2();
+		a.add();
+		
+	}
+
+}

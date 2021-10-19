@@ -1,0 +1,11 @@
+
+public class strin {
+	public static void main()
+	{
+		
+	
+	String a="sathish";
+	String b=new String("I am sathish");
+	System.out.println(a);
+	}
+}
