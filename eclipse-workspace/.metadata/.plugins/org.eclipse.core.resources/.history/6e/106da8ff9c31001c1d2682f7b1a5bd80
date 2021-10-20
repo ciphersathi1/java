@@ -1,0 +1,9 @@
+import java.io.File;
+public class fil {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File a=new File("file.txt");
+	}
+
+}
